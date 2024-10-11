@@ -583,6 +583,7 @@ border: none;
     left: 50%;
     width: 408px;
     min-height: 584px;
+    margin-bottom: 8px;
 box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
 background: #fcfcfc;
 padding: 16px 24px 16px 24px;
@@ -615,6 +616,12 @@ height: 40px;
 .label-modal{
     display: flex;
     flex-direction: column;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color:#8e8f99;
+    display: block;
+    margin-bottom: 4px; 
 }
 .legend-modal{
     justify-content: center;

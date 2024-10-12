@@ -684,7 +684,7 @@ color: #4d5ae5;
     background-color: #404bbf;
 }
 .button-label-modal-svg:hover,
-.button-label-modal-svg:focus + .svg-modal{
+.button-label-modal-svg:focus .svg-modal{
     fill: #ffffff;
 }
 .svg-modal{

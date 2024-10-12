@@ -683,7 +683,16 @@ color: #4d5ae5;
     border: none;
     background-color: #404bbf;
 }
+.button-label-modal-svg:hover,
+.button-label-modal-svg:focus + .svg-modal{
+    fill: #ffffff
+}
 .svg-modal{
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.svg-modal:hover,
+.svg-modal:focus{
+    fill: #ffffff
 }
 .div-modal{
     padding: 72px 24px 24px 24px;

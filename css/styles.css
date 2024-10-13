@@ -595,6 +595,7 @@ box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 
 background: #fcfcfc;
 padding: 72px 24px 24px 24px;
 transform: translate(-50%, -50%);
+transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-p{
@@ -675,7 +676,7 @@ text-decoration-skip-ink: none;
 color: #4d5ae5;
 }
 .button-label-modal-svg{
-    display: block;
+    display: flex;
     align-items: center;
     justify-content: center;
     background-color: #e7e9fc;
@@ -688,7 +689,6 @@ color: #4d5ae5;
     border-radius: 4px;
     width: 24px;
     height: 24px;
-    min-width: 169px;
     border-radius: 50%;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -757,6 +757,7 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     color: #8e8f99;
 }
 .check-box-div{
+    position: relative;
     margin-bottom: 24px;
 }
 .visually-hidden[type="check-box"]:checked + .snap-modal{
@@ -765,9 +766,11 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     fill:#F4F4FD; 
 }
 .adres-modal{
-    color: #4d5ae5;
+    color:#4d5ae5;
 }
-
+.svg-label{
+    position: absolute;
+}
 
 
 

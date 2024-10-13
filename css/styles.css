@@ -760,10 +760,9 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     color: #8e8f99;
 }
 .check-box-div{
-    position: relative;
     margin-bottom: 24px;
 }
-.visually-hidden:checked .span-modal{
+.visually-hidden:checked + .span-modal{
     background-color: #404bbf;
     border: none;
     fill:#F4F4FD; 

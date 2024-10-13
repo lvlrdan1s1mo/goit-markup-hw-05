@@ -417,7 +417,7 @@
                 <div class="div-modal">
                 <label class="label-modal" for="user-name">Name</label>
                 <div class="icon-input">
-                    <input class="input-modal" type="name" name="user-name" id="user-name">
+                    <input class="input-modal" type="text" name="user-name" id="user-name">
                 <svg class="svg-modal-label" width="18" height="24">
                     <use href="./images/icons.svg#icon-Vector-1"></use>
                 </svg>
@@ -443,11 +443,15 @@
             </div>
                 <div class="div-modal">
                 <label class="label-modal" for="user-comment">Comment</label>
-                    <textarea class="modal-text" name="user-comment" id="text" placeholder="Text input"></textarea>
+                    <textarea class="modal-text" name="user-comment" id="user-comment" placeholder="Text input"></textarea>
             </div>
+
             <label for="">
-                <input type="checkbox" name="check" id="check">
-                I accept the terms and conditions of the <span class="span-modal"><a href="">Privacy Policy</a></span>
+                <div class="check-box">
+                <input class="visually-hidden" type="checkbox" name="user-privacy" id="user-privacy" value="true">
+                <label class="label-checkbox" for="user-privacy">I accept the terms and conditions of the <span class="span-modal"><a href="">Privacy Policy</a></span>
+                </label>
+            </div>
             </label>
             <button class="button-label-modal" type="button">Send</button>
             </form>

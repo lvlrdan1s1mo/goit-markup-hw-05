@@ -707,4 +707,37 @@ color: #4d5ae5;
 .item-label{
     position: relative;
 }
+.svg-modal-label{
+position: absolute;
+top:50%;
+left: 19px;
+transform: translateY(-50%);
+}
+.icon-input{
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

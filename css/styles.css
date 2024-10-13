@@ -703,10 +703,11 @@ color: #4d5ae5;
     margin-bottom: 8px;
 }
 .form-label{
-
 }
 .item-label{
     position: relative;
 }
-
+.div-modal-label{
+    margin-bottom: 8px;
+}
 

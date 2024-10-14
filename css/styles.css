@@ -587,7 +587,7 @@ margin-left: 24px;
     align-items: center;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-    opacity: 0;
+    opacity: 1;
     pointer-events: none;
 
 }
@@ -674,6 +674,8 @@ text-align: center;
 color: #fff;
 box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 background: #4d5ae5;
+margin-right: auto;
+margin-left: auto;
 }
 .span-modal{
     width: 16px;

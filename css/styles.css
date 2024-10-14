@@ -581,7 +581,7 @@ border: none;
     display: flex;
     justify-content: center;
     align-items: center;
-
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal{
     position: absolute;
@@ -770,8 +770,8 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .adres-modal{
     color:#4d5ae5;
 }
-.input-check{
-
+.text-modal{
+    margin-bottom: 16px;
 }
 .adres-svg-modal{
     color:#4d5ae5;

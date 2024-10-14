@@ -560,9 +560,7 @@ width: 165px;
 height: 40px;
 background: #4d5ae5;
 border: none;
-}
-.button-label{
-    margin-left: 24px;
+margin-left: 24px;
 }
 .label-footer{
     display: flex;

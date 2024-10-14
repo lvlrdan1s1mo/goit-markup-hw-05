@@ -545,6 +545,9 @@ height: 40px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 .button-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: "Roboto", sans-serif;
 font-weight: 500;
 font-size: 16px;
@@ -558,6 +561,7 @@ color: #fff;
 padding: 8px 24px;
 width: 165px;
 height: 40px;
+min-width: 165px;
 background: #4d5ae5;
 border: none;
 margin-left: 24px;
